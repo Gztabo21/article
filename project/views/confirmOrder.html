@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+        <header>
+                <div class="head">
+                    <h1 style="text-align: center"> Hello, AgentName</h1>
+                </div>
+            </header>
+    <div>
+        <fieldset class="field-confirm">
+            <legend class="legend-confirm">Confirm you Order</legend>
+                <div class="container">
+                    
+                    <div class="row">
+                            <div class="col-sm-6">
+                              <h1 style="text-align: center">Items</h1>
+                              <div class="items">
+                                    
+                                    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+                                            <h4 id="fat">@fat</h4>
+                                            <p>...</p>
+                                            <h4 id="mdo">@mdo</h4>
+                                            <p>...</p>
+                                            <h4 id="one">one</h4>
+                                            
+                                          </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <h1 style="text-align: center">Address</h1>
+                              <div class="addressOrder">
+                                  <span>1600,Pensilvania Avenue, Washington DC,usa</span>
+                              </div>
+                              <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                      Is your order for an event ?
+                                    </label>
+                                  </div>
+                            </div>
+                            
+                          </div>
+                </div>
+              <div class="confirm-form-btn">
+                    <input href ="./views/makeOrder.html" onclick="validation()" type="submit" class="btn btn-primary mb-2 btn-lg" value="Complete order">
+              </div>
+        </fieldset>
+    </div>
+</body>
+</html>
